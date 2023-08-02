@@ -27,6 +27,6 @@ Here is the proposed ways to spell it:
 The `1` and `2` should be always accepted for the matter of simplicity.  
 But the others (specially `3`) are cool candidates for an official and flashy spelling!
 
-## [Details](/pages/details.md)
+## [Details](/cosmic/README.md)
 
-## [Comparison with SOLID principles](/pages/solid.md)
+## [Comparison with SOLID principles](/others/solid.md)
