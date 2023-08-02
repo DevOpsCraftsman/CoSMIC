@@ -5,7 +5,7 @@
 
 ---
 
-# Separation of Concerns
+# Separation of Concerns (SoC)
 “A design principle for separating a computer program into distinct sections such that each section addresses a separate concern.”
 
 #### [Examples](/cosmic/soc/soc.md)
@@ -19,7 +19,7 @@
 
 ---
 
-# Information Hiding / Abstraction
+# Abstraction (Information Hiding)
 “The process of removing physical, spatial, or temporal details or attributes in the study of objects or systems to focus attention on details of greater importance.”
 
 #### [Examples](/cosmic/abstraction/abstraction.md)
