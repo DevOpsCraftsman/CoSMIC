@@ -4,7 +4,7 @@
 
 The CoSMIC concepts were first introduced together by Dave Farley in his book
 “Modern Software Engineering” (2021) as a sensible and comprehensive set of
-ideas used to manage code complexity.
+ideas used to manage code complexity.  
 They are:
 
 - ***Co***hesion
