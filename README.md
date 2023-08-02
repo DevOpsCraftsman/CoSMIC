@@ -1,4 +1,6 @@
-# Introduction
+# COSMIC CODE COMPLEXITY CONCEPTS
+
+## Introduction
 
 The CoSMIC concepts were first introduced by Dave Farley in his book
 “Modern Software Engineering” (2021) as a way to manage code complexity.
