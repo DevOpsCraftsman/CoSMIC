@@ -14,6 +14,13 @@
 - needs more skill to apply
 - more general
 
+This has been confirmed by a tweet of Robert C. Martin saying:
+
+“The SOLID principles are journeyman level concepts. Beginners don’t have the context to understand the problems, let alone the solutions.
+
+On the other hand beginners should be taught that there are more advanced things coming for them to learn.”
+
+[Link](https://twitter.com/unclebobmartin/status/1686347850756603904?t=a8VVVwYMAjP6xtzbmOK7-g&s=33)
 
 ## Relationship
 
