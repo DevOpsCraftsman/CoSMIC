@@ -13,7 +13,7 @@ They are:
 - ***I***nformation Hiding / Abstraction
 - ***C***oupling
 
-They were presented in another order, and without acronym.  
+They were presented in different order, and without acronym.  
 The acronym was proposed by the `DevOps Craftsman` for the first time on patreon the 7/24/2023.
 
 
