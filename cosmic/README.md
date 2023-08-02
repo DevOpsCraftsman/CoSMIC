@@ -1,6 +1,9 @@
 # Cohesion
 “The degree to which the elements inside a module belong together.”
 
+### Early Mentions
+- 1975: "Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design" by Larry Constantine and Edward Yourdon
+
 #### [Examples](/cosmic/cohesion/cohesion.md)
 
 ---
@@ -28,5 +31,8 @@
 
 # Coupling
 “The degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.”
+
+### Early Mentions
+- 1974: "On the Criteria To Be Used in Decomposing Systems into Modules" by Larry Constantine, Glenford J. Myers, and Wayne C. Stevens
 
 #### [Examples](/cosmic/coupling/coupling.md)
