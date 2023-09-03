@@ -40,7 +40,7 @@ class Timer:
 ```
 
 Same thing without using a class; if `Timer` was just some sort of
-simple datastructure, we would have place 3 functions in the same file:
+simple data structure, we would have placed the 3 functions in a single file:
 
 ```python
 def start(timer: Timer):
