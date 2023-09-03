@@ -1,6 +1,6 @@
 # Modularity
 
-## Examples
+## Basic Example
 
 Let’s we want to perform a complex computation with 2 values and display the result.
 We could implement it like this:
