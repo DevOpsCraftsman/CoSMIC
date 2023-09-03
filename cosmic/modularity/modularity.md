@@ -29,4 +29,4 @@ def default_compute(a: int, b: float) -> float:
     print("processing…")
     return 123.45
 ```
-Now, the client code of this module can use a custom `compute` function if he want to.
+Now, the client code of this module can use a custom `compute` function if he wants to.
