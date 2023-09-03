@@ -14,7 +14,7 @@ def compute(a: int, b: float) -> float:
     return 123.45
 ```
 
-The problem is that now, or function `main` is bind to us `compute`, and nothing else.
+The problem is that now, our function `main` is bind to us `compute`, and nothing else.
 If we would be able the implement the same computation with another aglorithm that is
 more efficient or produce more accurate result, we would have to change the code by
 hand, because at runtime there is no parametrization possible.
@@ -29,4 +29,4 @@ def default_compute(a: int, b: float) -> float:
     print("processing…")
     return 123.45
 ```
-Now, the client code of this module can pass a custom `compute` function if he want to.
+Now, the client code of this module can use a custom `compute` function if he want to.
