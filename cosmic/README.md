@@ -18,7 +18,7 @@
 “The degree to which a system’s components may be separated and recombined, often with the benefit of flexibility and variety in use.”
 
 ### Early Mentions
-- 1974: "On the Criteria To Be Used in Decomposing Systems into Modules" by Larry Constantine, Glenford J. Myers, and Wayne C. Stevens
+- 1972: "On the Criteria To Be Used in Decomposing Systems into Modules" by David Lorge Parnas
 
 #### [Examples](/cosmic/modularity/modularity.md)
 
@@ -26,7 +26,7 @@
 “The process of removing physical, spatial, or temporal details or attributes in the study of objects or systems to focus attention on details of greater importance.”
 
 ### Early Mentions
-- 1974: "Programming with Abstract Data Types" by John E. Liskov
+- 1974: "Programming with Abstract Data Types" by Barbara Liskov and Stephen Ziles
 
 #### [Examples](/cosmic/abstraction/abstraction.md)
 
@@ -34,6 +34,6 @@
 “The degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.”
 
 ### Early Mentions
-- 1974: "On the Criteria To Be Used in Decomposing Systems into Modules" by Larry Constantine, Glenford J. Myers, and Wayne C. Stevens
+- 1972: "On the Criteria To Be Used in Decomposing Systems into Modules" by David Lorge Parnas
 
 #### [Examples](/cosmic/coupling/coupling.md)
