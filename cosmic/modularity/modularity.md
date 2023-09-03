@@ -19,7 +19,7 @@ If we would be able the implement the same computation with another aglorithm th
 more efficient or produce more accurate result, we would have to change the code by
 hand, because at runtime there is no parametrization possible.
 
-The can be easily improved this way:
+This can be easily improved this way:
 ```python
 def main(a: int, b: float, compute=default_compute) -> None:
     result = compute(a, b)
