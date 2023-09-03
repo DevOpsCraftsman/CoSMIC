@@ -1,4 +1,7 @@
-# Basic Example
+# Cohesion
+
+## Basic Example
+
 Let’s say we have a class Timer like this:
 
 ```python
@@ -19,7 +22,7 @@ def suspend(timer: Timer):
     print("suspend timer")
 ```
 
-There is a big probality that, if the 2 others functionnality of the
+There is a big probality that, if the 2 other functionnality of the
 timer change, this third will need to be updated too.  
 So, we better have to put them altogether:
 
