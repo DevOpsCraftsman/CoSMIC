@@ -2,10 +2,10 @@
 
 ## Introduction
 
-The CoSMIC concepts were first introduced together by Dave Farley in his book
-“Modern Software Engineering” (2021) as a sensible and comprehensive set of
-ideas used to manage code complexity, even though each concept separately has
-been well-known and established for a long time.
+The CoSMIC concepts were first introduced together as whole by Dave Farley in his book
+“Modern Software Engineering” (2021), even though each concept separately has been well-known
+and established for a long time.  
+The goal was to give a sensible and comprehensive set of ideas to manage code complexity.
 
 They are:
 
