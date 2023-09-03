@@ -18,7 +18,7 @@
 “The degree to which a system’s components may be separated and recombined, often with the benefit of flexibility and variety in use.”
 
 ### Early Mentions
-- 1974: "On the Criteria To Be Used in Decomposing Systems into Modules" by Larry Constantine, Glenford J. Myers, and Wayne C. Stevens
+- 1972: "On the Criteria to Be Used in Decomposing Systems into Modules" by D.L.Parnas
 
 #### [Examples](/cosmic/modularity/modularity.md)
 
