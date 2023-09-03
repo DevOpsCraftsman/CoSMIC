@@ -18,7 +18,7 @@
 “The degree to which a system’s components may be separated and recombined, often with the benefit of flexibility and variety in use.”
 
 ### Early Mentions
-- 1972: "On the Criteria To Be Used in Decomposing Systems into Modules" by David Lorge Parnas
+- 1972: "On the Criteria to Be Used in Decomposing Systems into Modules" by David Lorge Parnas
 
 #### [Examples](/cosmic/modularity/modularity.md)
 
@@ -34,6 +34,6 @@
 “The degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.”
 
 ### Early Mentions
-- 1972: "On the Criteria To Be Used in Decomposing Systems into Modules" by David Lorge Parnas
+- 1972: "On the Criteria to Be Used in Decomposing Systems into Modules" by David Lorge Parnas
 
 #### [Examples](/cosmic/coupling/coupling.md)
