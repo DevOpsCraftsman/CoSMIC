@@ -16,7 +16,6 @@ erb_str = File.read(erb_file)
   @samples = []
   output_file = "#{examples_folder}/#{spec[:language]}/abstraction/abstraction.md"
   sample_files = Dir["#{examples_folder}/templates/abstraction/abstraction_sample_*.#{spec[:extension]}"]
-  puts sample_files
   sample_files.each do |sample_file|
     File.open(sample_file) do |sample|
       @samples.push sample.read
