@@ -11,21 +11,33 @@ erb_str = File.read(erb_file)
   {language: "python", extension: "py"},
 ]
 
+concepts = [
+  :abstraction,
+]
+
 @specs.each do |spec|
   @spec = spec
   @samples = []
-  output_file = "#{examples_folder}/#{spec[:language]}/abstraction/abstraction.md"
-  sample_files = Dir["#{examples_folder}/templates/abstraction/abstraction_sample_*.#{spec[:extension]}"]
-  sample_files.each do |sample_file|
-    File.open(sample_file) do |sample|
-      @samples.push sample.read
-    end
-  end
-  renderer = ERB.new(erb_str)
-  result = renderer.result()
+  concepts.each do |concept|
 
-  File.open(output_file, 'w') do |output|
-    output.write(result)
+    concept_folder = "#{examples_folder}/templates/#{concept}"
+    sample_files = Dir["#{concept_folder}/#{concept}_sample_*.#{spec[:extension]}"]
+
+    sample_files.each do |sample_file|
+      File.open(sample_file) do |sample|
+        @samples.push sample.read
+      end
+    end
+
+    renderer = ERB.new(erb_str)
+    result = renderer.result()
+
+    output_file = "#{examples_folder}/#{spec[:language]}/#{concept}/#{concept}.md"
+
+    File.open(output_file, 'w') do |output|
+      output.write(result)
+    end
+
   end
 end
 
