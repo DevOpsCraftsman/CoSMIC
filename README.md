@@ -18,6 +18,8 @@ They are:
 They were presented in different a order, and without acronym.  
 The acronym was proposed by the `DevOps Craftsman` for the first time on patreon the 7/24/2023.
 
+## [Why another acronym?](/cosmic/why.md)
+
 ## [Details](/cosmic/README.md)
 
 ## [Comparison with SOLID principles](/others/solid.md)
