@@ -11,16 +11,16 @@ As an example, on coding design principles and guidelines alone, we can mention:
 - GRASP
 - …
 
-If that so, a legimate question can be asked here is:
+If that so, a legimate question that can be asked here is:
 
 ## Do we really need another one?
 
-Well, maybe yes, maybe not… Ultimately, it is for you –the community– to decide…  
-The test of time will tell if an acronym was worth it or not.
+Well, maybe yes, maybe not… Ultimately, it is for you –the community– to decide.  
+The test of time will tell if a new acronym was worth it or not.
 
-On anthore hand, instead of being constently reluctant to any new acronyms,
-a good strategy may simply to curate and filter them, and select the ones that
-you the highest value for you.
+On the other hand, instead of being constently reluctant to any new acronym,
+a good strategy may simply be to curate and filter them, and select the ones that
+have the highest value for you.
 
 Here is a proposition of guidelines that can help identify the intersting ones:
 
