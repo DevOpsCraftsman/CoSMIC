@@ -2,8 +2,8 @@
 
 ## Introduction
 
-The 2 set of guidelines are not mutually exclusive. It is even possible on some case
-that following either of the 2 will produce a very similar code structure.  
+The 2 set of guidelines are not mutually exclusive. It is even possible on some 
+cases that following either of the 2 will produce a very similar code structure.  
 The main diffirences resides in the focus and granularity.
 
 ## Specificities of each
@@ -26,7 +26,7 @@ The main diffirences resides in the focus and granularity.
 - more flexible
 - less opinionated
 
-This has been confirmed by a tweet of Robert C. Martin saying:
+This has partially been confirmed by a tweet of Robert C. Martin saying:
 
 > The SOLID principles are journeyman level concepts. Beginners don’t have the context to understand the problems, let alone the solutions.
 > 
