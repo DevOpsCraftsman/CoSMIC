@@ -37,4 +37,4 @@ def main(a: float, b: float, compute: FloatBiFunc = default_compute) -> None:
     print(f"The result of the computation of {a} and {b} is: {result}")
 ```
 
-Now, it is possible to use a different `compute` function if he wants to.
+Now, it is possible to pass a different `compute` function if we want to.
