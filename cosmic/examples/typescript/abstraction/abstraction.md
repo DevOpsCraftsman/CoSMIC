@@ -5,17 +5,20 @@
 Let’s say we want to manipulate lists. We want to be able to apply transformation to
 theirs elements in place (without creating new lists). We could do it like this:
 
-```python
-list_1 = [3, 23, -5]
-for i, n in enumerate(list_1):
+```typescript
+let list_1 = [3, 23, -5]
+for (const [i, n] of Object.entries(list_1)) {
     list_1[i] = n * 2
+}
 
-list_2 = [4, 2, 1, 100, 33]
-for i, n in enumerate(list_2):
-    if n & 2 == 0:
+let list_2 = [4, 2, 1, 100, 33]
+for (const [i, n] of Object.entries(list_1)) {
+    if (n % 2 == 0) {
         list_2[i] = n / 2
-    else:
+    } else {
         list_2[i] = n * 3 + 1
+    }
+}
 
 ```
 
@@ -24,17 +27,20 @@ indices by hand.
 There is a better way to handle this, by introducing a new kind of list which provide
 this ability for us:
 
-```python
-class TransformableList(list):
-    def apply(self, func):
-        for i, n in enumerate(self):
+```typescript
+class TransformableList<T> extends Array<T> {
+    apply(self, func: (T) => T) {
+        for (const [i, n] of Object.entries(list_1)) {
             self[i] = func(n)
+        }
+    }
+}
 
-list_1 = TransformableList([3, 23, -5])
-list_1.apply(lambda n: n * 2)
+let list_1 = new TransformableList([3, 23, -5])
+list_1.apply((n: number) => n * 2)
 
-list_2 = TransformableList([4, 2, 1, 100, 33])
-list_2.apply(lambda n: n / 2 if n % 2 == 0 else n * 3 + 1)
+let list_2 = new TransformableList([4, 2, 1, 100, 33])
+list_2.apply((n: number) => (n % 2 == 0) ? n / 2 : n * 3 + 1)
 
 ```
 
