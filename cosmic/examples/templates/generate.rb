@@ -1,6 +1,8 @@
 require "erb"
 
-erb_file = './abstraction/abstraction.md.erb'
+examples_folder = 'cosmic/examples'
+
+erb_file = "#{examples_folder}/templates/abstraction/abstraction.md.erb"
 
 erb_str = File.read(erb_file)
 
@@ -12,8 +14,9 @@ erb_str = File.read(erb_file)
 @specs.each do |spec|
   @spec = spec
   @samples = []
-  output_file = './abstraction/abstraction.' + spec[:extension] + '.md'
-  sample_files = Dir["./abstraction/abstraction_sample_*." + spec[:extension]]
+  output_file = "#{examples_folder}/#{spec[:language]}/abstraction/abstraction.md"
+  sample_files = Dir["#{examples_folder}/templates/abstraction/abstraction_sample_*.#{spec[:extension]}"]
+  puts sample_files
   sample_files.each do |sample_file|
     File.open(sample_file) do |sample|
       @samples.push sample.read
