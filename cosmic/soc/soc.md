@@ -39,9 +39,9 @@ display_result(result)
 ```
 
 Now, if we want to change the way the computation is done (multipliy by 2 instead of 3),
-We just need to go in the `process_numbers`, where this concern is adressed.
+We just need to go in the `process_numbers`, where this concern is adressed.  
 If we want to read the numbers from another file, or from an HTTP request, it will be
-in the `get_numbers` function that will handle that.
+in the `get_numbers` function that will handle that.  
 And if we want to write the output in a file instead of printing in the terminal,
 only the `display_result` will need adjustments.
 
