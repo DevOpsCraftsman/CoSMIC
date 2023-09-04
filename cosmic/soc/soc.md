@@ -46,5 +46,5 @@ And if we want to write the output in a file instead of printing in the terminal
 only the `display_result` will need adjustments.
 
 **WARNING**: this may seem overkill for a simple little script. But in real-world
-application, the complexity tends to grow in an unforseen way very quickly, so it’s
-a good idea to think about "Separation of Concerns" earsy on…
+applications, the complexity tends to grow in an unforseen way very quickly, so it’s
+a good idea to think about "Separation of Concerns" early on…
