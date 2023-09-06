@@ -29,6 +29,7 @@
 - 1974: "Programming with Abstract Data Types" by Barbara Liskov and Stephen Ziles
 
 #### [Python Examples](/cosmic/examples/python/abstraction.md)
+#### [TypeScript Examples](/cosmic/examples/typescript/abstraction.md)
 
 # Coupling
 “The degree of interdependence between software modules; a measure of how closely connected two routines or modules are; the strength of the relationships between modules.”
