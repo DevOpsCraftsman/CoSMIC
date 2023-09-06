@@ -15,6 +15,12 @@ concepts = [
   :abstraction,
 ]
 
+code_template = "
+```%{language}
+%{sample}
+```
+".strip
+
 @specs.each do |spec|
   @spec = spec
   @samples = []
@@ -27,8 +33,10 @@ concepts = [
     samples_files = Dir[samples_folder]
 
     samples_files.each do |sample_file|
-      File.open(sample_file) do |sample|
-        @samples.push sample.read
+      File.open(sample_file) do |file|
+        content = file.read
+        sample = code_template % {language: lang, sample: content.strip}
+        @samples.push sample
       end
     end
 

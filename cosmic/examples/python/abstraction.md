@@ -16,7 +16,6 @@ for i, n in enumerate(list_2):
         list_2[i] = n / 2
     else:
         list_2[i] = n * 3 + 1
-
 ```
 
 It’s painful to do it this way, because we have to manipulate the lists and theirs
@@ -35,7 +34,6 @@ list_1.apply(lambda n: n * 2)
 
 list_2 = TransformableList([4, 2, 1, 100, 33])
 list_2.apply(lambda n: n / 2 if n % 2 == 0 else n * 3 + 1)
-
 ```
 
 This way, we can apply any function to our lists, without having to bother with low level 

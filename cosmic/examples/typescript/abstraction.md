@@ -19,7 +19,6 @@ for (const [i, n] of Object.entries(list_1)) {
         list_2[i] = n * 3 + 1
     }
 }
-
 ```
 
 It’s painful to do it this way, because we have to manipulate the lists and theirs
@@ -41,7 +40,6 @@ list_1.apply((n: number) => n * 2)
 
 let list_2 = new TransformableList([4, 2, 1, 100, 33])
 list_2.apply((n: number) => (n % 2 == 0) ? n / 2 : n * 3 + 1)
-
 ```
 
 This way, we can apply any function to our lists, without having to bother with low level 
