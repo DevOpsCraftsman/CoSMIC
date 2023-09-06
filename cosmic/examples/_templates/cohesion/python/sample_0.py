@@ -5,6 +5,3 @@ class Timer:
         
     def stop(self):
         print("stop timer")
-
-    def suspend(timer: Timer):
-        print("suspend timer")

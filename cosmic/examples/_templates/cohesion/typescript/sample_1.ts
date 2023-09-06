@@ -1,9 +1,3 @@
-class Timer1 {
-    start() {
-        console.log("starting timer")
-    }
-
-    stop() {
-        console.log("stop timer")
-    }
+function suspend(timer: Timer1) {
+    console.log("suspend timer")
 }

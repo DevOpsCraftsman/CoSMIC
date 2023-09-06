@@ -1,16 +1,19 @@
-let list_1 = [3, 23, -5]
+class TransformableList<T> extends Array<T> {
+    constructor(items: Iterable<T>) {
+        super(...items);
+    }
 
-for (const [i, n] of Object.entries(list_1)) {
-    list_1[i] = n * 2
-}
-
-
-let list_2 = [4, 2, 1, 100, 33]
-
-for (const [i, n] of Object.entries(list_2)) {
-    if (n % 2 == 0) {
-        list_2[i] = n / 2
-    } else {
-        list_2[i] = n * 3 + 1
+    apply(func: (n: T) => T): void {
+        for (const [i, n] of Object.entries(this)) {
+            self[i] = func(n)
+        }
     }
 }
+
+
+let list_3 = new TransformableList([3, 23, -5])
+list_3.apply((n: number) => n * 2)
+
+
+let list_4 = new TransformableList([4, 2, 1, 100, 33])
+list_4.apply((n: number) => (n % 2 == 0) ? n / 2 : n * 3 + 1)
