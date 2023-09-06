@@ -14,6 +14,7 @@
 - 1974: "On the role of scientific thought" by Edsger W. Dijkstra
 
 #### [Python Examples](/cosmic/examples/python/soc.md)
+#### [TypeScript Examples](/cosmic/examples/typescript/soc.md)
 
 # Modularity
 “The degree to which a system’s components may be separated and recombined, often with the benefit of flexibility and variety in use.”

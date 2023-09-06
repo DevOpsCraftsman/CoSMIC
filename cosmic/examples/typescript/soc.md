@@ -7,7 +7,16 @@ We want to add them up, and multiply the result by 3,
 then print the result to the console.
 Here is a straightforward way do to it:
 
+```typescript
+import { readFileSync } from 'node:fs'
 
+function main() {
+    const content = readFileSync("numbers.txt")
+    const numbers = content.map(parseInt)
+    const result = numbers.reduce((next: number, sum: number) => sum + next, 0)
+    console.log(`The result of the operation is: ${result}`)
+}
+```
 
 There is lot of things going on here:
 - reading a file and convert lines into numbers
@@ -16,7 +25,29 @@ There is lot of things going on here:
 
 We can break those operations into several functions, to separate responsabilities:
 
+```typescript
+import { readFileSync } from 'node:fs'
 
+function main(): void {
+    const numbers = getNumbers()
+    const result = processNumbers(numbers)
+    displayResult(result)
+}
+
+function getNumbers(): number[] {
+    const content = readFileSync("numbers.txt")
+    return content.map(parseInt)
+}
+
+function processNumbers(numbers: number[]): number {
+    const result = numbers.reduce((next: number, sum: number) => sum + next, 0)
+    return result * 3
+}
+
+function displayResult(result: number): void {
+    console.log(`The result of the operation is: ${result}`)
+}
+```
 
 Now, if we want to change the way the computation is done (multipliy by 2 instead of 3),
 We just need to go in the `process_numbers`, where this concern is adressed.  
