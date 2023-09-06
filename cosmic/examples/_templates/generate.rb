@@ -12,6 +12,7 @@ concepts = [
   :abstraction,
   :cohesion,
   :coupling,
+  :soc,
 ]
 
 code_template = "

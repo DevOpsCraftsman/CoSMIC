@@ -7,13 +7,7 @@ We want to add them up, and multiply the result by 3,
 then print the result to the console.
 Here is a straightforward way do to it:
 
-```python
-with open("numbers.txt") as file:
-    lines = file.readlines()
-    numbers = [int(line) for line in file]
-    result = sum(numbers) * 3
-    print(f"The result of the operation is: {result}")
-```
+
 
 There is lot of things going on here:
 - reading a file and convert lines into numbers
@@ -22,21 +16,7 @@ There is lot of things going on here:
 
 We can break those operations into several functions, to separate responsabilities:
 
-```python
-def get_numbers() -> list[int]:
-    with open("numbers.txt") as file:
-        return [int(line) for line in file]
-        
-def process_numbers(numbers: list[int]) -> int:
-    return sum(numbers) * 3
-    
-def display_result(result: int) -> None:
-    print(f"The result of the operation is: {result}")
-    
-numbers = get_numbers()
-result = process_numbers(numbers)
-display_result(result)
-```
+
 
 Now, if we want to change the way the computation is done (multipliy by 2 instead of 3),
 We just need to go in the `process_numbers`, where this concern is adressed.  
