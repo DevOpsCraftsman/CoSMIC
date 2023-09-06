@@ -32,7 +32,7 @@ concepts = [
     renderer = ERB.new(erb_str)
     result = renderer.result()
 
-    output_file = "#{examples_folder}/#{spec[:language]}/#{concept}/#{concept}.md"
+    output_file = "#{examples_folder}/#{spec[:language]}/#{concept}.md"
 
     File.open(output_file, 'w') do |output|
       output.write(result)
