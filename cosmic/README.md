@@ -39,3 +39,4 @@
 - 1972: "On the Criteria to Be Used in Decomposing Systems into Modules" by David Lorge Parnas
 
 #### [Python Examples](/cosmic/examples/python/coupling.md)
+#### [TypeScript Examples](/cosmic/examples/typescript/coupling.md)

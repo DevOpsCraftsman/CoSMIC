@@ -10,6 +10,7 @@ examples_folder = 'cosmic/examples'
 concepts = [
   :abstraction,
   :cohesion,
+  :coupling,
 ]
 
 code_template = "
