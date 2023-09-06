@@ -2,10 +2,6 @@ require "erb"
 
 examples_folder = 'cosmic/examples'
 
-erb_file = "#{examples_folder}/templates/abstraction/template.md.erb"
-
-erb_str = File.read(erb_file)
-
 @specs = [
   {language: "typescript", extension: "ts"},
   {language: "python", extension: "py"},
@@ -13,6 +9,7 @@ erb_str = File.read(erb_file)
 
 concepts = [
   :abstraction,
+  :cohesion,
 ]
 
 code_template = "
@@ -21,9 +18,9 @@ code_template = "
 ```
 ".strip
 
+
 @specs.each do |spec|
-  @spec = spec
-  @samples = []
+
   concepts.each do |concept|
     
     ext = spec[:extension]
@@ -31,6 +28,8 @@ code_template = "
 
     samples_folder = "#{examples_folder}/templates/#{concept}/#{lang}/*.#{ext}"
     samples_files = Dir[samples_folder]
+
+    @samples = []
 
     samples_files.each do |sample_file|
       File.open(sample_file) do |file|
@@ -40,10 +39,13 @@ code_template = "
       end
     end
 
-    renderer = ERB.new(erb_str)
+    template_file = "#{examples_folder}/templates/#{concept}/template.md.erb"
+    template = File.read(template_file)
+
+    renderer = ERB.new(template)
     result = renderer.result()
 
-    output_file = "#{examples_folder}/#{spec[:language]}/#{concept}.md"
+    output_file = "#{examples_folder}/#{lang}/#{concept}.md"
 
     File.open(output_file, 'w') do |output|
       output.write(result)

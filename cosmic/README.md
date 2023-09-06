@@ -5,6 +5,7 @@
 - 1975: "Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design" by Larry Constantine and Edward Yourdon
 
 #### [Python Examples](/cosmic/examples/python/cohesion.md)
+#### [TypeScript Examples](/cosmic/examples/typescript/cohesion.md)
 
 # Separation of Concerns (SoC)
 “A design principle for separating a computer program into distinct sections such that each section addresses a separate concern.”

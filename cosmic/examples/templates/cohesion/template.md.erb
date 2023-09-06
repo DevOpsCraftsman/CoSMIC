@@ -1,0 +1,23 @@
+# Cohesion
+
+## Basic Example
+
+Let’s say we have a class Timer like this:
+
+<%= @samples[0] %>
+
+If we were told to add a suspend functionnality, it would be a bad
+idea to implement it in a separate file like this:
+
+<%= @samples[1] %>
+
+There is a big probality that, if the 2 other functionnality of the
+timer change, this third will need to be updated too.  
+So, we better have to put them altogether:
+
+<%= @samples[2] %>
+
+Same thing without using a class; if `Timer` was just some sort of
+simple data structure, we would have placed the 3 functions in a single file:
+
+<%= @samples[3] %>
