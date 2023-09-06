@@ -7,10 +7,13 @@ theirs elements in place (without creating new lists). We could do it like this:
 
 ```python
 list_1 = [3, 23, -5]
+
 for i, n in enumerate(list_1):
     list_1[i] = n * 2
 
+
 list_2 = [4, 2, 1, 100, 33]
+
 for i, n in enumerate(list_2):
     if n & 2 == 0:
         list_2[i] = n / 2
@@ -29,11 +32,13 @@ class TransformableList(list):
         for i, n in enumerate(self):
             self[i] = func(n)
 
-list_1 = TransformableList([3, 23, -5])
-list_1.apply(lambda n: n * 2)
 
-list_2 = TransformableList([4, 2, 1, 100, 33])
-list_2.apply(lambda n: n / 2 if n % 2 == 0 else n * 3 + 1)
+list_3 = TransformableList([3, 23, -5])
+list_3.apply(lambda n: n * 2)
+
+
+list_4 = TransformableList([4, 2, 1, 100, 33])
+list_4.apply(lambda n: n / 2 if n % 2 == 0 else n * 3 + 1)
 ```
 
 This way, we can apply any function to our lists, without having to bother with low level 
