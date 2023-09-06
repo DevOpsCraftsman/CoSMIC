@@ -1,6 +1,7 @@
 require "erb"
 
 examples_folder = 'cosmic/examples'
+templates_folder = "#{examples_folder}/_templates"
 
 @specs = [
   {language: "typescript", extension: "ts"},
@@ -27,7 +28,7 @@ code_template = "
     ext = spec[:extension]
     lang = spec[:language]
 
-    samples_folder = "#{examples_folder}/templates/#{concept}/#{lang}/*.#{ext}"
+    samples_folder = "#{templates_folder}/#{concept}/#{lang}/*.#{ext}"
     samples_files = Dir[samples_folder]
 
     @samples = []
@@ -40,7 +41,7 @@ code_template = "
       end
     end
 
-    template_file = "#{examples_folder}/templates/#{concept}/template.md.erb"
+    template_file = "#{templates_folder}/#{concept}/template.md.erb"
     template = File.read(template_file)
 
     renderer = ERB.new(template)

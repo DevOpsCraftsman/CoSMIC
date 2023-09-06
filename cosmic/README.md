@@ -21,8 +21,6 @@
 ### Early Mentions
 - 1972: "On the Criteria to Be Used in Decomposing Systems into Modules" by David Lorge Parnas
 
-#### [Python Examples](/cosmic/examples/python/modularity.md)
-
 # Abstraction (Information Hiding)
 “The process of removing physical, spatial, or temporal details or attributes in the study of objects or systems to focus attention on details of greater importance.”
 

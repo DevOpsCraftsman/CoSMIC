@@ -1,2 +1,2 @@
 generate_examples:
-	ruby cosmic/examples/templates/generate.rb
+	ruby cosmic/examples/_templates/generate.rb
