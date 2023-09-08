@@ -40,7 +40,7 @@
 | complete       | must     | no      | yes    | yes    |
 | easy to grasp  | perf     | highest | low    | medium |
 | esay to apply  | perf     | highest | high   | medium |
-| generic        | perf     | no      | medium | medium |
+| generic        | perf     | no      | medium | high   |
 | freedom        | perf     | highest | low    | high   |
 | apply to arch. | perf     | no      | no     | yes    |
 | cool name      | plus     | no      | medium | high   |
