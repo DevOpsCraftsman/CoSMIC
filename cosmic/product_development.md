@@ -22,6 +22,7 @@
 1. simpler to grasp and present (not necessary to apply)
 1. more generic
 1. gives more freedom for implementation
+1. can apply directly at the architecture level, not only code level
 
 ### Delight 
 1. the name "CoSMIC", which sounds cool!
@@ -29,5 +30,5 @@
 
 ---
 
-*UX layer*: code samples
+*UX layer*: code samples  
 *Feature Set*: the CoSMIC concepts themselves
