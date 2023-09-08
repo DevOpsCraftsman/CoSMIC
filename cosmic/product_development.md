@@ -15,6 +15,11 @@
 
 ---
 
+*UX layer*: code samples  
+*Feature Set*: the CoSMIC concepts themselves
+
+---
+
 ### Must have
 1. complete & self-contained set of guidelines
 
@@ -30,5 +35,13 @@
 
 ---
 
-*UX layer*: code samples  
-*Feature Set*: the CoSMIC concepts themselves
+| benefit        | category | nothing | SOLID  | CoSIMC |
+| ----------     | -------- | ------- | ------ | ------ |
+| complete       | must     | no      | yes    | yes    |
+| easy to grasp  | perf     | highest | low    | medium |
+| esay to apply  | perf     | highest | high   | medium |
+| generic        | perf     | no      | medium | medium |
+| freedom        | perf     | highest | low    | high   |
+| apply to arch. | perf     | no      | no     | yes    |
+| cool name      | plus     | no      | medium | high   |
+| very old       | plus     | high    | medium | high   |
