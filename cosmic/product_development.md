@@ -43,5 +43,5 @@
 | generic        | perf     | no      | medium | high   |
 | freedom        | perf     | highest | low    | high   |
 | apply to arch. | perf     | no      | medium | high   |
-| cool name      | plus     | no      | medium | high   |
+| cool name      | plus     | ...     | medium | high   |
 | very old       | plus     | high    | medium | high   |
