@@ -10,7 +10,7 @@
 ### Underserved needs
 1. Daily work not aligned with classical SOLID examples 
 1. More freedom and creativity
-1. Go to the essential without overheads
+1. Go to the essential
 1. Complete the vision about "why should we do that?" (goals VS tricks)
 
 ---
