@@ -35,13 +35,13 @@
 
 ---
 
-| benefit        | category | nothing | SOLID  | CoSMIC |
-| ----------     | -------- | ------- | ------ | ------ |
-| complete       | must     | no      | yes    | yes    |
-| easy to grasp  | perf     | highest | low    | medium |
-| easy to apply  | perf     | highest | high   | medium |
-| generic        | perf     | no      | medium | high   |
-| freedom        | perf     | highest | low    | high   |
-| apply to arch. | perf     | no      | medium | high   |
-| cool name      | plus     | ...     | medium | high   |
-| very old       | plus     | high    | medium | high   |
+| benefit        | nothing | SOLID  | CoSMIC |
+| ----------     | ------- | ------ | ------ |
+| complete       | no      | yes    | yes    |
+| easy to grasp  | highest | low    | medium |
+| easy to apply  | highest | high   | medium |
+| generic        | no      | medium | high   |
+| freedom        | highest | low    | high   |
+| apply to arch. | no      | medium | high   |
+| cool name      | ...     | medium | high   |
+| very old       | high    | medium | high   |
