@@ -42,6 +42,6 @@
 | easy to apply  | perf     | highest | high   | medium |
 | generic        | perf     | no      | medium | high   |
 | freedom        | perf     | highest | low    | high   |
-| apply to arch. | perf     | no      | medium | yes    |
+| apply to arch. | perf     | no      | medium | high   |
 | cool name      | plus     | no      | medium | high   |
 | very old       | plus     | high    | medium | high   |
