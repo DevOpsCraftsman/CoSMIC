@@ -35,7 +35,7 @@
 
 ---
 
-| benefit        | category | nothing | SOLID  | CoSIMC |
+| benefit        | category | nothing | SOLID  | CoSMIC |
 | ----------     | -------- | ------- | ------ | ------ |
 | complete       | must     | no      | yes    | yes    |
 | easy to grasp  | perf     | highest | low    | medium |
