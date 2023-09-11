@@ -4,7 +4,7 @@
 
 The 2 set of guidelines are not mutually exclusive. It is even possible on some 
 cases that following either of the 2 will produce a very similar code structure.  
-The main diffirences resides in the focus and granularity.
+The main differences resides in the focus and granularity.
 
 ## Specificities of each
 
@@ -38,7 +38,6 @@ This has partially been confirmed by a tweet of Robert C. Martin saying:
 
 SOLID principles can be seen as specific applications of COSMIC concepts.
 
-
 ### Single Responsibility Principle
 - Separation of Concerns
 - High Cohesion
@@ -57,6 +56,11 @@ SOLID principles can be seen as specific applications of COSMIC concepts.
 - Modularity
 - Low Coupling
 - High Cohesion
+
+### Dependency Inversion Principle
+- Modularity
+- Abstraction
+- Low Coupling
 
 ### Dependency Inversion Principle
 - Modularity
