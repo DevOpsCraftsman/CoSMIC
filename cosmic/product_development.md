@@ -39,7 +39,7 @@
 | ----------     | -------- | ------- | ------ | ------ |
 | complete       | must     | no      | yes    | yes    |
 | easy to grasp  | perf     | highest | low    | medium |
-| esay to apply  | perf     | highest | high   | medium |
+| easy to apply  | perf     | highest | high   | medium |
 | generic        | perf     | no      | medium | high   |
 | freedom        | perf     | highest | low    | high   |
 | apply to arch. | perf     | no      | medium | yes    |
