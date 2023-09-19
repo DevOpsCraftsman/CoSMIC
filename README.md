@@ -22,4 +22,4 @@ The acronym was proposed by the `DevOps Craftsman` for the first time on patreon
 
 ## [Details & Examples](/cosmic/README.md)
 
-## [Comparison with SOLID Principles](/others/solid.md)
+## [Comparisons with Others](/others/README.md)
